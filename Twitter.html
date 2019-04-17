@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Twitter</title>
+		<link rel="stylesheet" href="twitter.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</head>
+
+	<body>
+<!-- ----------------------------------- -->
+		<header>
+			<div class="h-container">
+				<div class="h-c-width">
+					<span class="headleft">
+							<span class="h-menu ib" id="home"><label for="home" class="fa fa-home"></label>ホーム</span>
+							<span class="h-menu ib" id="moment"><label for="moment" class="fa fa-bolt"></label>モーメント</span>
+							<span class="h-menu ib" id="notification"><label for="notification" class="fa fa-bell"></label>通知</span>
+							<span class="h-menu ib" id="message"><label for="message" class="fa fa-envelope"></label>メッセージ</span>
+					</span>
+
+					<i class="fab fa-twitter"></i>
+
+					<span class="headright">
+						<input class="search ib" placeholder="キーワード検索"><i class="fa fa-search"></i>
+						<i><a href="#"><img class="icon headicon h-right" src="icon.png"></a></i>
+						<button type="button" class="tweet ib h-right">ツイート</button>
+					</span>
+				</div>
+			</div>
+		</header>
+<!-- ----------------------------------- -->
+		<div class="m-container">
+			<!-- 左 -->
+			<div class="m-left">
+			<!-- プロフィール画面 -->
+				<div class="p-block">
+					<p class="dashboard"><a href=""><img class="dashboard" src="dashboard.png"></a></p>
+					<div class="profile">
+						<i><a href="#"><img class="icon p-icon" src="icon.png"></a></i>
+						<div class="p-name">
+							<a href="#" class="User-name hov-underline">User-name</a>
+							<br>
+							<a href="#" class="Account-ID">＠</a><a href="#" class="Account-ID hov-underline">Account-ID</a>
+						</div>
+						<div class="p-card">
+							<div class="p-tff ib">
+								<span class="p-span">ツイート</span>	
+								<br>
+								<span class="p-bluefont">0</span>
+							</div>
+							<div class="p-tff ib">
+								<span class="p-span">フォロー</span>
+								<br>
+								<span class="p-bluefont">0</span>
+							</div>
+							<div class="p-tff ib">
+								<span class="p-span">フォロワー</span>
+								<br>
+								<span class="p-bluefont">0</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- プロフィール画面 -->
+			</div>
+			<!-- 左 -->
+
+			<!-- 中央 -->
+			<div class="m-center">
+				<!-- いまどうしてる？画面 -->
+				<div class="tweetbox t-tweet">
+					<i><a href="#"><img class="icon t-icon" src="icon.png"></a></i>
+					<div class="t-area ib">
+						<p class="t-ima" contenteditable>いまどうしてる？</p>
+						<p class="fa fa-image"></p>
+					</div>
+				</div>
+				<!-- いまどうしてる？画面 -->
+				<!-- ツイート画面 1 -->
+				<div class="tweetbox t-tweets">
+					<p class="icon t-t-icon"><img class="icon t-t-icon" src="icon.png"></p>
+					<div class="t-t-message">
+						<div class="t-t-stream">
+							<i class="User-name hov-underline">User-name</i>
+							<i class="Account-ID">@Account-ID</i>
+							<i class="t-t-time"></i>
+							<p class="fa fa-chevron-down"></p>
+						</div>
+						<p class="t-t-text">
+							あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 またそのなかでいっしょになったたくさんのひとたち、ファゼーロとロザーロ、羊飼のミーロや、顔の赤いこどもたち、地主のテーモ、山猫博士のボーガント・デストゥパーゴなど、いまこの暗い巨きな石の建物のなかで考えていると、みんなむかし風のなつかしい青い幻燈のように思われます。では、わたくしはいつかの小さなみだしをつけながら、しずかにあの年のイーハトーヴォの五月から十月までを書きつけましょう。
+						</p>
+						<div class="t-t-item">
+							<span class="ib reply"><i class="fa fa-comment"><span class="ib t-t-inumber">1</span></i></span>			
+							<span class="ib retweet"><i class="fa fa-retweet"><span class="ib t-t-inumber">114514</span></i></span>
+							<span class="ib like"><i class="fa fa-heart"><span class="ib t-t-inumber"></span></i></span>
+							<span class="ib direct-m"><i class="fa fa-envelope"><span class="ib t-t-inumber">1</span></i></span>
+						</div>
+					</div>
+					<div class="clearboth">
+					</div>
+				</div>
+			<!-- ツイート画面 1 -->
+			<!-- ツイート画面 2 -->
+				<div class="tweetbox t-tweets">
+					<p class="icon t-t-icon"><img class="icon t-t-icon" src="icon.png"></p>
+					<div class="t-t-message">
+						<div class="t-t-stream">
+							<i class="User-name hov-underline">User-name</i>
+							<i class="Account-ID">@Account-ID</i>
+							<i class="t-t-time"></i>
+							<p class="fa fa-chevron-down"></p>
+						</div>
+						<p class="t-t-text">
+							あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 またそのなかでいっしょになったたくさんのひとたち、ファゼーロとロザーロ、羊飼のミーロや、顔の赤いこどもたち、地主のテーモ、山猫博士のボーガント・デストゥパーゴなど、いまこの暗い巨きな石の建物のなかで考えていると、みんなむかし風のなつかしい青い幻燈のように思われます。では、わたくしはいつかの小さなみだしをつけながら、しずかにあの年のイーハトーヴォの五月から十月までを書きつけましょう。
+						</p>
+						<div class="t-t-item">
+							<span class="ib reply"><i class="fa fa-comment"><span class="ib t-t-inumber">1</span></i></span>			
+							<span class="ib retweet"><i class="fa fa-retweet"><span class="ib t-t-inumber">114514</span></i></span>
+							<span class="ib like"><i class="fa fa-heart"><span class="ib t-t-inumber"></span></i></span>
+							<span class="ib direct-m"><i class="fa fa-envelope"><span class="ib t-t-inumber">1</span></i></span>
+						</div>
+					</div>
+					<div class="clearboth">
+					</div>	
+				</div>
+			<!-- ツイート画面 2 -->
+			<!-- ツイート画面 3 -->
+				<div class="tweetbox t-tweets">
+					<p class="icon t-t-icon"><img class="icon t-t-icon" src="icon.png"></p>
+					<div class="t-t-message">
+						<div class="t-t-stream">
+							<i class="User-name hov-underline">User-name</i>
+							<i class="Account-ID">@Account-ID</i>
+							<i class="t-t-time"></i>
+							<p class="fa fa-chevron-down"></p>
+						</div>
+						<p class="t-t-text">
+							あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。 またそのなかでいっしょになったたくさんのひとたち、ファゼーロとロザーロ、羊飼のミーロや、顔の赤いこどもたち、地主のテーモ、山猫博士のボーガント・デストゥパーゴなど、いまこの暗い巨きな石の建物のなかで考えていると、みんなむかし風のなつかしい青い幻燈のように思われます。では、わたくしはいつかの小さなみだしをつけながら、しずかにあの年のイーハトーヴォの五月から十月までを書きつけましょう。
+						</p>
+						<div class="t-t-item">
+							<span class="ib reply"><i class="fa fa-comment"><span class="ib t-t-inumber">1</span></i></span>			
+							<span class="ib retweet"><i class="fa fa-retweet"><span class="ib t-t-inumber">114514</span></i></span>
+							<span class="ib like"><i class="fa fa-heart"><span class="ib t-t-inumber"></span></i></span>
+							<span class="ib direct-m"><i class="fa fa-envelope"><span class="ib t-t-inumber">1</span></i></span>
+						</div>
+					</div>
+					<div class="clearboth">
+					</div>	
+				</div>
+			<!-- ツイート画面 3 -->
+		</div>
+		<!-- 中央 -->
+
+		<!-- 右 -->
+		<div class="m-right m-r-container">
+			<span class="r-head">
+				<i class="osusumeuser">おすすめユーザー</i>
+				<i class="r-small">·</i>
+				<i class="r-small tblue hov-underline">更新</i>
+				<i class="r-small">·</i>
+				<i class="r-small tblue hov-underline">すべて見る</i>
+			</span>
+
+			<div class="o-1 m-right">
+				<i class="fa fa-user ib"></i>
+					<div class="o-1-12px"><i class="tblue hov-underline o-1-12-blue">hoge</i>さんと<i class="tblue hov-underline o-1-12-blue">他のユーザー</i>にフォローされています</div>
+				<span class="o-1name"><a href="#"><img class="icon o-icon" src="icon.png"></a>おすすめUser<i class="o-1account">＠Account-ID</i></span>
+				<div class="o-follow">
+					<i class="o-f-text">フォローする</i>
+				</div>
+			</div>
+		</div>
+		<!-- 右 -->
+<!-- ----------------------------------- -->
+	</body>
+
+</html>

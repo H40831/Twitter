@@ -1,0 +1,475 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+	color: #14171a;
+	background-color: #e6ecf0;
+}
+i {
+	font-size: 14px;
+	font-weight: normal;
+	color: gray;
+}
+.i {
+	font-size: 14px;
+	font-weight: normal;
+	color: gray;
+}
+
+.ib {
+	display: inline-block;
+	font-size: 0;
+}
+
+.icon {
+	border-radius: 50%;
+}
+
+.tblue {
+	color: #1da1f2;
+}
+
+/*ここからヘッダー*/
+header {
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	width: 100%;
+	height: 46px;
+}
+
+.h-container {
+	padding: 0 6.5%;
+	background: #fff;
+  height: 46px;
+  line-height: 46px;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+.h-c-width {
+	width: 1186px;
+	margin: 0 auto;
+}
+
+.headleft {
+	float: left;
+}
+
+.headleft .fa {
+	margin-right: 8px;
+	font-size: 18px;
+	position: relative;
+	top: 1px;
+}
+
+.headleft {
+	font-size: 13px;
+	font-weight: bold;
+	height: 46px;
+}
+
+.h-menu {
+	color: gray;
+	padding: 0 13px;
+	height: calc(100% - 2px);
+	vertical-align: -1px;
+	font-size: 13px;
+}
+
+.h-menu:hover {
+	color: #1da1f2;
+	transition: 0.15s;
+	border-bottom: 2px solid #1c94e0;
+}
+
+.fa-twitter {
+	text-align: center;
+	cursor: pointer;
+	color: #1da1f2;
+	font-size: 20px;
+  vertical-align: -2px;
+  margin-right: 37px;
+}
+.headright {
+	float: right;
+	text-align: right;
+	position: relative;
+	top: -1px;
+}
+
+.h-right {
+	margin-left: 10px;
+}
+
+.search {
+	font-size: 12px;
+	border: 1px solid #e6ecf0;
+	border-radius: 21px;
+	padding: 8px 81px 8px 12px;
+	outline: none;
+	background-color: #f5f8fa;
+}
+.fa-search {
+	color: gray;
+	font-size: 17px;
+	position: absolute;
+  top: 15px;
+  left: 192px;
+  cursor: pointer;
+}
+
+.tweet {
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #4ab3f4;
+	padding: 6px 16px;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.tweet:hover {
+	background-color: #1da1f2;
+}
+
+.headicon {
+	height: 32px;
+	width: 32px;
+	vertical-align: middle;
+}
+/*ここまでヘッダー*/
+
+/*ここからメイン画面*/
+.m-container {
+	padding: 57px 0 15px 0;
+	width: 1186px;
+	margin: 0 auto;
+}
+
+.m-left {
+	float: left;
+}
+
+/*プロフィール画面*/
+.p-block {
+	width: 288px;
+	background-color: white;
+}
+.dashboard {
+	width: 288px;
+	height: 95px;
+}
+
+.profile {
+	position: relative;
+	width: 288px;
+	height: 118px;
+}
+
+.p-icon {
+	position: absolute;
+	top: -31px;
+	left: 8px;
+	height: 69.5px;
+	width: 69.5px;
+  border: 2.5px solid white;
+  background-color: white;
+}
+
+.p-name {
+	position: relative;
+	top: 5px;
+	left: 90px;
+}
+
+.User-name {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+.Account-ID {
+	font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+.hov-underline:hover {
+  text-decoration: underline;
+}
+
+.p-card {
+	width: calc(100% - 32px);
+	margin: 16px;
+	clear: left;
+}
+
+.p-span {
+	font-size: 12px;
+  font-weight: bold;
+}
+
+.p-tff {
+	width: 31%;
+	color: gray;
+	cursor: pointer;
+}
+.p-tff:hover {
+	color: #1da1f2;
+	transition: 0.15s;
+}
+
+.p-bluefont {
+	color: #1da1f2;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 3px;
+
+}
+/*プロフィール画面*/
+
+/*いまどうしてる？画面*/
+.m-center {
+	padding: 0 10px;
+	float: left;
+}
+
+.tweetbox {
+	padding: 10px 12px;
+	width: 564px;
+	border-bottom: 1px solid #e6ecf0;
+}
+
+.t-tweet {
+	background-color: #E8F5FD;
+}
+
+.t-icon {
+	vertical-align: top;
+	width: 32px;
+	height: 32px;
+	margin: 0 5px 0 16px;
+	float: left;
+	padding: 2px;
+}
+
+.t-area {
+	border: 1px solid #1da1f2;
+  outline: none;
+	border-radius: 8px;
+	padding: 8px 8px 8px 8px;
+	color: #1da1f2;
+	height: 19px;
+	width: calc(100% - 81px);
+	background-color: white;
+	vertical-align: bottom;
+	cursor: text;
+}
+
+.t-ima {
+	color: #1da1f2;
+	font-size: 14px;
+	height: 20px;
+	float: left;
+	outline: none;
+	width: calc(100% - 25px);
+}
+
+.fa-image {
+	font-size: 20px;
+  vertical-align: middle;
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/*いまどうしてる？画面*/
+/*ツイート画面*/
+.t-tweets {
+	background-color: white;
+	clear: both;
+	cursor: pointer;
+}
+.t-tweets:hover {
+	background-color: #f5f8fa;
+}
+
+.t-t-icon {
+	height: 48px; 
+	width: 48px;
+	float: left;
+}
+.t-t-message {
+	margin-right: 10px;
+	width: 100%;
+}
+
+.t-t-stream {
+	margin-left: 10px;
+	float: left;
+	width: calc(100% - 58px);
+}
+
+.t-t-stream .User-name {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.t-t-stream .User-name:hover {
+	color: #1da1f2;
+}
+
+.t-t-stream .Account-ID {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fa-chevron-down {
+	float: right;
+	color: gray;
+}
+
+.fa-chevron-down:hover {
+	color: #1da1f2;
+	transition: 0.15s;
+}
+
+.t-t-text {
+	font-size: 14px;
+  line-height: 20px;
+  width: calc(100% - 58px);
+  float: right;
+}
+.t-t-item {
+	width: calc(100% - 58px);
+	float: right;
+	color: gray;
+	position: relative;
+}
+
+.t-t-item span .fa {
+	width: 78px;
+	font-size: 16px;
+}
+
+.t-t-inumber {
+	margin-right: 8px;
+	font-size: 10px;
+	font-weight: bold;
+	width: 27px;
+  text-align: center;
+	position: absolute;
+	top: 7px;
+}
+
+.reply:hover {
+	color: #1da1f2;
+}
+
+.retweet:hover {
+	color: #17bf63;
+}
+
+.like:hover {
+	color: #e0245e;
+}
+
+.direct-m:hover {
+	color: #1da1f2;
+}
+
+.clearboth {
+	clear: both;
+}
+
+/*ツイート画面*/
+
+/*おすすめユーザー*/
+.m-right {
+	background-color: white;
+	width: 260px;
+	float: left;
+}
+.m-r-container {
+	padding: 15px;
+}
+
+.r-head {
+	margin-bottom: 10px;
+}
+
+.osusumeuser {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.r-small {
+	line-height: 1;
+	font-size: 12px;
+}
+
+.m-right i {
+	font-style: normal;
+}
+.o-1 {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #e6ecf0;
+}
+
+.fa-user {
+	font-size: 10px;
+	padding: 5px 8px 20px 38px;
+	float: left;
+}
+
+.o-1-12px {
+	font-size: 12px;
+	color: gray;
+
+}
+
+.o-1-12-blue {
+	font-size: 12px;
+}
+
+.o-icon {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+}
+
+.o-1name {
+	font-size: 14px;
+	font-weight: bold;
+}
+.o-1account {
+	color: gray;
+	font-weight: normal;
+	margin-left: 3.88px;
+}
+.o-follow {
+	float: left;
+	border: 1px solid #1da1f2;
+	padding: 0.5px 12px;
+	border-radius: 100px;
+	cursor: pointer;
+}
+.o-follow:hover {
+	background-color: #E8F5FD;
+}
+.o-f-text {
+	font-size: 12px;
+	font-weight: bold;
+	color: #1da1f2;
+	vertical-align: 1.5px;
+}
+
+
+
+/*おすすめユーザー	*/
