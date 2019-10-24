@@ -1,9 +1,0 @@
-Google ChromeにてTwitter.htmlを開いてご確認ください。
-
-【開発環境】
-Mac OS, Sublime Text3, Google Chrome, 
-
-【概要】
-ポートフォリオ用に作成しました。
-HTML, CSSのスキルチェック用にTwitter画面のスタイルをゼロから再現してみました。
-時間都合により未完成状態ですが、必要なところが伝われば幸いです。
