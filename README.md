@@ -2,7 +2,7 @@
 制作日: 2018年下旬頃
 
 ## 確認方法
-URL: https://h40831.github.io/Twitter/Twitter.html
+URL: https://h40831.github.io/Twitter/Twitter.html<br>
 Github Pagesにて公開しています。上記URLを開いてご確認ください。
 
 ## 開発環境
