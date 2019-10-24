@@ -2,7 +2,8 @@
 制作日: 2018年下旬頃
 
 ## 確認方法
-Google ChromeにてTwitter.htmlを開いてご確認ください。
+URL: https://h40831.github.io/Twitter/Twitter.html
+Github Pagesにて公開しています。上記URLを開いてご確認ください。
 
 ## 開発環境
 言語: HTML/CSS<br>
